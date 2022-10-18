@@ -8,3 +8,382 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #540B51;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+nav > div > button{
+    background-color: #540B51;
+    border: none;
+    
+}
+
+nav img{
+    height: 20px;
+}
+
+nav div button img{
+    height: 20px;
+}
+
+nav div ul{
+    display: none;
+    visibility: hidden;
+}
+
+header{
+    display: flex;
+    background-color: #540B51;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding: 1em 0.5em;
+    font-size: 2.5em;
+}
+
+header > div > p{
+    font-size: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+.free-to-try{
+    color: #ECB12F;
+}    
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    background-color: white;
+    color: #540B51;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.google{
+    display: flex;
+    background-color: #4285F4;
+    color: white;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.google span{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 22%;
+}
+
+.img-google{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.hero{
+    width: 90%;
+}
+
+.trusted{
+    background-color: #F3EAE2;
+}
+
+.trusted p{
+    text-align: center;
+    padding: 2em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.logos{
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: 600;
+
+}
+
+.logos img{
+    height: 30px;
+    padding: 10px
+}
+
+section{
+    background-color: #F3EAE2;
+}
+
+.connect img{
+    margin-top: 30px;
+    height: 300px;
+}
+
+h2{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+h2 + p{
+    padding-left: 40px;
+    padding-top: 10px;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+
+h2 +p + a{
+    text-decoration: none;
+    color: #2E71A6;
+    padding-left: 40px;
+
+}
+
+.flexibility{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexibility img{
+    padding-top: 30px;
+    height: 300px;
+        
+}
+
+.speed{
+    display: flex;
+    flex-direction: row;
+}
+
+.speed img{
+    padding-top: 30px;
+    height: 300px;
+        
+}
+
+.faster{
+    padding-bottom: 20px;
+}
+
+.teams{
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teams div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams h3{
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px 20px;
+}
+
+.teams p{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.fundo-roxo{
+    background-color: #540B51;
+    border: 1px solid white;
+    color: white;
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fundo-branco{
+    background-color: white;
+    border: 1px solid #540B51;
+    color: #540B51;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+
+.asterisco{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+ul > li > p> span{
+    color: #540B51;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+
+.headquarters{
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headquarters h3{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px 40px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+footer img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 20px;
+}
+
+.resumo{
+    display: flex;
+    font-size: 0.8em;
+    padding: 10px 20px;
+
+}
+
+.resumo ul{
+    padding: 10px;
+}
+
+.resumo li:first-child{
+    font-weight: 700;
+}
+
+.resumo li{
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 1em;
+}
+
+.burocracia li{
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.small{
+    font-size: 0.8em;
+    padding-left: 20px;
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    header{
+        display: flex;
+        background-color: #540B51;
+        color: white;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .teams > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .fundo-roxo{
+        background-color: #540B51;
+        border: 1px solid white;
+        color: white;
+        width: 80%;
+        height: 60px;
+        margin: 10px;
+    }
+    
+    .fundo-branco{
+        background-color: white;
+        border: 1px solid #540B51;
+        color: #540B51;
+        width: 80%;
+        height: 60px;
+        margin: 10px;
+    
+    }
+
+    .percentuais{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .percentuais li{
+        list-style-type: none;
+    }
+
+    .burocracia{
+        display: flex;
+        flex-direction: row;
+    }
+}
